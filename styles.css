@@ -497,20 +497,19 @@ profile-photo .img{
 
   .header .menu_icon {
     display: block;
-    position: absolute;
   }
 
   .header ul {
     opacity: 0;
   }
   
-  .header ul.show {
+  /* .header ul.show {
     opacity: 1;
     position: relative;
     margin-top: 170px;
     left: 300px; 
     transition: all 2s ease-in-out;
-  }
+  } */
 
   .header i{
     color: #e5e5e5;
