@@ -501,15 +501,17 @@ profile-photo .img{
 
   .header ul {
     display: none;
+    opacity: 0;
+    transition: all 2s ease-in-out;
   }
   
-  /* .header ul.show {
+  .header ul.show {
     opacity: 1;
     position: relative;
     margin-top: 170px;
-    left: 300px; 
+    left: 200px; 
     transition: all 2s ease-in-out;
-  } */
+  }
 
   .header i{
     color: #e5e5e5;
