@@ -111,7 +111,28 @@ $(document).ready(function() {
   }
   
 
-  const bar = document.querySelector('.menu_icon').addEventListener('click', () => {
-    document.querySelector('header ul').classList.toggle('show');
+  // const bar = document.querySelector('.menu_icon').addEventListener('click', () => {
+  //   document.querySelector('header ul').classList.toggle('show');
+  // });
+
+  // Mendapatkan elemen menu ikon, ul header, dan li header
+const menuIcon = document.querySelector('.header .menu_icon');
+const menuList = document.querySelector('.header ul');
+const menuItems = document.querySelectorAll('.header ul li');
+
+// Fungsi untuk menampilkan atau menyembunyikan menu
+menuIcon.addEventListener('click', function() {
+  menuList.classList.toggle('show');
+});
+
+// Menambahkan event listener untuk setiap item menu
+menuItems.forEach(item => {
+  item.addEventListener('click', function() {
+    // Lakukan fungsi yang diinginkan ketika item menu diklik
+    alert(`Item menu ${item.textContent} diklik!`);
+    
+    // Menghapus class show dari ul header
+    menuList.classList.remove('show');
   });
-  
+});
+
