@@ -501,8 +501,6 @@ profile-photo .img{
 
   .header ul {
     opacity: 0;
-    left: 400px;
-    transition: all 2s ease-in-out;
   }
   
   .header ul.show {
