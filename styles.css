@@ -512,10 +512,9 @@ profile-photo .img{
     display: block;
     position: absolute;
     top: 100px;
-    left: 200px;
+    left: 380px;
     z-index: 100000;
     transition: all 2s ease-in-out;
-    background-color: white;
   }
 
   .header i{

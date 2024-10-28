@@ -128,8 +128,6 @@ menuIcon.addEventListener('click', function() {
 // Menambahkan event listener untuk setiap item menu
 menuItems.forEach(item => {
   item.addEventListener('click', function() {
-    // Lakukan fungsi yang diinginkan ketika item menu diklik
-    alert(`Item menu ${item.textContent} diklik!`);
     
     // Menghapus class show dari ul header
     menuList.classList.remove('show');
