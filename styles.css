@@ -501,16 +501,19 @@ profile-photo .img{
 
   .header ul {
     display: none;
-    opacity: 0;
     transition: all 2s ease-in-out;
+  }
+
+  .header ul li{
+    padding: 20px;
   }
   
   .header ul.show {
     display: block;
-    opacity: 1;
-    position: relative;
-    margin-top: 170px;
-    left: 200px; 
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    z-index: 100000;
     transition: all 2s ease-in-out;
   }
 
