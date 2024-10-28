@@ -506,6 +506,7 @@ profile-photo .img{
   }
   
   .header ul.show {
+    display: block;
     opacity: 1;
     position: relative;
     margin-top: 170px;
