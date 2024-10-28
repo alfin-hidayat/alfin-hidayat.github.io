@@ -500,7 +500,7 @@ profile-photo .img{
   }
 
   .header ul {
-    opacity: 0;
+    display: none;
   }
   
   /* .header ul.show {
