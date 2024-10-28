@@ -497,6 +497,7 @@ profile-photo .img{
 
   .header .menu_icon {
     display: block;
+    position: absolute;
   }
 
   .header ul {
@@ -505,7 +506,7 @@ profile-photo .img{
   
   .header ul.show {
     opacity: 1;
-    position: absolute;
+    position: relative;
     margin-top: 170px;
     left: 300px; 
     transition: all 2s ease-in-out;
