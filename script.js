@@ -113,5 +113,6 @@ $(document).ready(function() {
 
   const bar = document.querySelector('.menu_icon').addEventListener('click', () => {
     document.querySelector('header ul').classList.toggle('show');
+    alert('ok')
   });
   
