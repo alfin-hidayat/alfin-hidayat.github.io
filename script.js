@@ -123,6 +123,7 @@ const menuItems = document.querySelectorAll('.header ul li');
 // Fungsi untuk menampilkan atau menyembunyikan menu
 menuIcon.addEventListener('click', function() {
   menuList.classList.toggle('show');
+  
 });
 
 // Menambahkan event listener untuk setiap item menu
